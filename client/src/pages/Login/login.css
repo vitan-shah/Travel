@@ -1,0 +1,64 @@
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://images.unsplash.com/photo-1488085061387-422e29b40080?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRyYXZlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60) center no-repeat;
+    background-size: cover;
+}
+
+.login>div {
+    background-image: linear-gradient(to right, #00000054 0%, #0009 80%);
+    width: 100%;
+    height: 100%;
+}
+
+.login .logo {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.login .logo>img {
+    height: 100px;
+}
+
+.lContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+}
+
+.lInput {
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.lButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.lButton:disabled {
+    background-color: #0071c28c;
+    cursor: not-allowed;
+}
+
+.login .lContainer span {
+    color: #f00;
+    text-align: center;
+}
